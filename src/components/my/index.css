@@ -1,0 +1,109 @@
+.my_head_box{
+    height:206px;
+    width:100%;
+    /* background:url(../../static/images/my/top_background.png) no-repeat center; */
+    position: relative;
+}
+/* .ChineseMedicine .my_head_box{
+    background:url(../../static/images/my/top_background1.png) no-repeat center;
+}
+.gynaecology .my_head_box{
+    background:url(../../static/images/my/top_background2.png) no-repeat center;
+} */
+
+.head_url_center{
+    width:106px;
+    width:106px;
+    position: absolute;
+    top:-33px;
+    margin-left:16px;
+    border-radius:50%;
+}
+.my_head_box .am-image-picker{
+    height:100%;
+    
+}
+.my_head_box .am-image-picker-list{
+    padding:0;
+    height:100%;
+}
+.my_head_box .am-image-picker-list .am-flexbox{
+    height:100%;
+}
+.my_head_box .am-image-picker-list .am-flexbox .am-flexbox-item{
+    width:106px;
+    width:106px;
+    position: absolute;
+    top:-33px;
+    margin-left:16px;
+    border-radius:50%;
+}
+.my_head_box .am-image-picker-list .am-image-picker-upload-btn{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-remove{
+    display: none;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-content{
+    border-radius:50%;
+}
+.my_head_box .am-image-picker-list .am-image-picker-upload-btn input{
+    width:106px;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-content{
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border:1px solid #fff;
+}
+.head_content_box{
+    padding:0px 15px;
+    position: relative;;
+    top:85px;
+}
+.head_content_box_top{
+    background:#fff;
+}
+.head_content_name{
+    font-size:20px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+}
+.editIcon{
+    width:16px;
+    height:16px;
+    margin-left:15px;
+}
+.card_number{
+    font-size:13px;
+font-family:PingFang-SC-Medium;
+font-weight:500;
+color:rgba(102,102,102,1);
+margin-top:12px;
+line-height: 18px;
+
+}
+.my_type_title{
+    font-size:15px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(47,143,239,1);
+    padding-top:7px;
+    padding-bottom:17px;
+}
+.ChineseMedicine .my_type_title{
+    color:#F9A137;
+}
+.am-list-header{
+    padding:5px 0px;
+}
+.ChineseMedicine .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #F9A137;
+    background: #F9A137;
+}
+.scrollTouch{
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}

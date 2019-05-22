@@ -1,0 +1,217 @@
+.type3BannerContainer{
+    position: relative;
+}
+.type3AddressContainer{
+    /* position:absolute; */
+    left:3%;
+    width:94%;
+    /* bottom:-44px; */
+    /* top:180px; */
+    bottom:0px;
+    background: #fff;
+    box-shadow:0px 2px 5px 0px rgba(255,0,235,0.2);
+    border-radius:7px;
+    z-index:100;
+    box-sizing: border-box;
+    padding:0px 12px;
+    margin-top:-44px;
+    position: relative;
+}
+.type3padd{
+    padding:12px 0;
+}
+.borderBottom1{
+    width:100%;
+    border-bottom:1px solid #f2f2f4;
+}
+.ChineseMedicineType2 .type3_btn{
+    border-radius:13px;
+    padding:10px 16px;
+    font-size:12px;
+    height:auto;
+    line-height: 1px;
+    margin-left:20px;
+}
+.width_25{
+    width:25%;
+}
+.width_25 span{
+    line-height:35px;
+    margin-bottom:15px;
+}
+.type3_sercive_box{
+    padding:0 12px;
+}
+.type3_srvice_small{
+    /* width:33%; */
+    width:100%;
+    height:44px;
+    text-align:center;
+    background:#fff;
+    box-sizing: border-box;
+    border-left:2px solid #fff5fe;
+    border-bottom:2px solid #fff5fe;
+    overflow: hidden;
+}
+.type3_srvice_small.checked{
+    background:#ff99f7;
+    color:#fff;
+}
+.type3_srvice_small2{
+     /* width:33%; */
+     width:100%;
+    /* height:88px; */
+     text-align:center;
+     background:#fff;
+     box-sizing: border-box;
+     border-left:2px solid #fff5fe;
+     border-bottom:2px solid #fff5fe;
+     overflow: hidden;
+}
+.type3_srvice_small2.checked{
+    background:#ff99f7;
+    color:#fff;
+}
+.type3_doctor_box{
+    padding:0 18px;
+}
+.type3_doctor_name{
+    height:25px;
+    font-size:18px;
+font-family:PingFangSC-Semibold;
+font-weight:600;
+color:rgba(0,0,0,1);
+}
+.type3_doctor_type{
+    height:17px;
+font-size:12px;
+font-family:PingFangSC-Medium;
+font-weight:500;
+color:rgba(213,76,238,1);
+}
+.type3_doctor_intro{
+    font-size:12px;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+line-height:24px;
+overflow:hidden; 
+text-overflow:ellipsis;
+display:-webkit-box; 
+-webkit-box-orient:vertical;
+-webkit-line-clamp:5; 
+}
+.width_45{
+    width:45%;
+}
+.type3_zixun_btn{
+    background:rgba(254,181,60,1);
+    border-radius:8px;
+    height:26px;
+    line-height: 26px;
+    text-align: center;
+    color:#fff;
+}
+.type3_yuyue_btn{
+    background:rgba(255,74,92,1);
+border-radius:8px;
+height:26px;
+line-height: 26px;
+text-align: center;
+color:#fff;
+}
+.type3_showMore{
+    height:30px;
+    line-height:30px;
+    color:#fff;
+background:rgba(255,153,247,1);
+border-radius:14px;
+font-size:11px;
+font-family:PingFangSC-Medium;
+font-weight:500;
+color:rgba(255,255,255,1);
+text-align: center;
+}
+.type3_introduce_content{
+    font-size:14px;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+line-height:24px;
+letter-spacing:1px;
+}
+.pic_content2{
+    padding:6px 15px 0 13px
+}
+.type3_concat_box{
+    margin-top:40px;
+    position: relative;
+    margin-bottom: -20px;
+}
+.type3_call_phone{
+    font-size:22px;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:rgba(216,0,255,1);
+    line-height:30px;
+    letter-spacing:2px;
+}
+.type3_call_btn{
+    width:121px;
+    height:29px;
+    background:rgba(255,153,247,1);
+    border-radius:14px;
+    line-height: 29px;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    margin:0 auto;
+    text-align: center;
+}
+.type3_watch_detail{
+    height:26px;
+    background:rgba(150,131,229,0.85);
+    font-size:12px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:26px;
+    text-align: center;
+    letter-spacing:2px;
+    position: absolute;
+    bottom:12px;
+    width:100%;
+}
+.ChineseMedicineType2 .haveLine{
+    border-bottom:1px solid #dfdfdf
+}
+.ChineseMedicineType2 .haveLine:last-child{
+    border:none;
+}
+.goods_box{
+    box-sizing: border-box;
+}
+.goods_box:nth-child(odd)
+{
+    padding:20px 25px 15px 10px;
+    border-right:1px solid #eeeeee;
+    border-top:1px solid #eeeeee;
+}
+.goods_box:nth-child(even)
+{
+    padding:20px 10px 15px 25px;
+    border-top:1px solid #eeeeee;
+}
+.goods_box:nth-child(1){
+    border-top:none;
+}
+.goods_box:nth-child(2){
+    border-top:none;
+}
+.ChineseMedicineType2 .am-card-header{
+    background:#f5f5f5;
+}
+.ChineseMedicineType2 .am-card-body{
+    padding-bottom: 0;
+}

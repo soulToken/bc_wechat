@@ -1,0 +1,30 @@
+.toothType3 .type444 .am-button{
+    height:auto;
+    line-height:normal;
+    font-size:13px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.toothType3 .doctor_classify_box{
+    background:#99d5ff;
+}
+.toothType3 .doctor_name_box{
+    color:#99d5ff;
+}
+.toothType3 .doctor_introduce_box{
+    background:url(../../../static/images/toothType3/home/name_bg.png) no-repeat center;
+    background-size:75%; 
+}
+.toothType3 .strach{  
+    width: 6px;
+    height: 6px;
+    background: #99d5ff;
+    transform: rotate(-45deg);
+    margin-right:4px;
+}
+.toothType3 .clisName_box{
+    /* position:absolute; */
+    width:100%;
+    /* bottom:0;
+    left:0; */
+}

@@ -1,0 +1,133 @@
+/* .my_head_box{
+    height:148px;
+    width:100%;
+    background:url(../../static/images/doctor_team_background@3x.png) no-repeat center;
+    position: relative;
+}
+.head_url_center{
+    width:138px;
+    width:138px;
+    position: absolute;
+    top:29px;
+    left:50%;
+    margin-left:-69px;
+    border-radius:50%;
+}
+.my_head_box .am-image-picker{
+    height:100%;
+    
+}
+.my_head_box .am-image-picker-list{
+    padding:0;
+    height:100%;
+}
+.my_head_box .am-image-picker-list .am-flexbox{
+    height:100%;
+}
+.my_head_box .am-image-picker-list .am-flexbox .am-flexbox-item{
+    width:138px;
+    width:138px;
+    position: absolute;
+    top:29px;
+    left:50%;
+    margin-left:-69px;
+    border-radius:50%;
+}
+.my_head_box .am-image-picker-list .am-image-picker-upload-btn{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-remove{
+    display: none;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-content{
+    border-radius:50%;
+}
+.my_head_box .am-image-picker-list .am-image-picker-upload-btn input{
+    width:138px;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-content{
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border:1px solid #fff;
+} */
+
+
+/* 输入框样式 */
+.bind_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bindnotice{
+    font-family:PingFangSC-Semibold;
+    font-size:18px;
+    color:rgba(0,128,255,1);
+    margin-top:36px;
+    margin-bottom:22px;
+    max-width: 300px;
+    text-align:center;
+}
+.bind_box .am-list-item .am-input-label.am-input-label-5{
+    width:32px;
+}
+.bind_box .am-list-item.am-input-item{
+    border-radius:14px;
+}
+.phone_box .am-list-item .am-input-extra{
+    opacity: 0;
+}
+.code_box .am-list-item .am-input-extra{
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    color:rgba(0,128,255,1);
+    text-decoration: underline;
+    /* width:70px; */
+    padding:0 2px;
+    text-align: center;
+}
+.bind_btn{
+    background:rgba(0,128,255,1);
+    border-radius:14px;
+    font-size:18px;
+}
+.bind_box .am-flexbox.am-flexbox-align-center{
+    width:100%;
+}
+.bind_box .nextSpeck{
+    border-radius:14px;
+    border:1px solid rgba(165,165,165,1)!important;
+    color:#A5A5A5;
+    background:rgb(247, 247, 247)
+}
+html:not([data-scale]) .am-button-primary::before{
+    border:0;
+}
+
+.input_right_show .am-list-item .am-input-control input{
+    text-align: right;
+}
+.sex_circle{
+    border-radius:50%;
+    height:32px;
+    width:32px;
+    line-height: 32px;
+    text-align: center;
+    border:1px solid #0080ff;
+    font-size: 15px;
+}
+.sex_circle.checked{
+    background:#0080ff;
+    color:#fff;
+}
+.sex_no_content .am-list-line .am-list-content{
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+
+
+
+
+
+

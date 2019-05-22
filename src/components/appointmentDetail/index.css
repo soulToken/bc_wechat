@@ -1,0 +1,31 @@
+.mess_container{
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 3px 1px rgba(0,0,0,0.15);
+    padding: 20px;
+}
+.detail_name{
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(0,122,255,1);
+    margin-bottom: 13px;
+}
+.line_17{
+    line-height: 17px;
+    font-size:12px;
+}
+.line_17_left{
+    color:rgba(153,153,153,1);
+}
+.detail_notice_title{
+    font-size: 10px;
+    color:rgba(0,0,0,0.5);
+    margin-bottom: 7px;
+}
+.detail_notice_wxcode{
+    margin-top: 5px;
+    font-size:18px;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,1);
+}

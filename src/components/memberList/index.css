@@ -1,0 +1,58 @@
+/* html:not([data-scale]) .am-button-primary::before{
+    border:0;
+} */
+.memberList_box{
+    padding-left:15px;
+}
+.memberList_content{
+    padding:10px 15px 12px 0;
+    /* border-bottom:1px solid #d5d5d5; */
+}
+.memberList_headUrl{
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+    margin-right: 18px;
+    border:1px solid #eee;
+}
+.memberList_type{
+    height:21px;
+    border-radius:10px;
+    padding:0px 10px;
+    line-height: 21px;
+    text-align: center;
+    color:#fff;
+    background: #108ee9;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500
+}
+.ChineseMedicine .memberList_type{
+    background: #F9A137
+}
+.memberList_name{
+    font-size:18px;
+font-family:PingFang-SC-Medium;
+font-weight:500;
+color:rgba(0,0,0,1);
+line-height:32px;
+}
+.memberList_phone{
+    font-size:15px;
+font-family:PingFang-SC-Medium;
+font-weight:500;
+color:rgba(102,102,102,1);
+}
+.add_member_box{
+    padding: 30px 0;
+    background: #fff;
+    font-size:16px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:#108ee9;
+    margin-top: 15px;
+}
+.ChineseMedicine .add_member_box{
+    color: #F9A137;
+
+}

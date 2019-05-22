@@ -1,0 +1,70 @@
+.half_circle22s{
+    width:6px;
+     height:12px;
+    border-radius:  0 6px 6px 0;
+   background:rgba(215,183,117,1);
+}
+.half_circle22{
+    width:6px;
+    height:12px;
+    border-radius: 6px 0 0  6px;
+    background:rgba(215,183,117,1);
+}
+.whole_circle22{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:rgba(215,183,117,1);
+}
+.coupon_line{
+    width:100%;
+    height:1px;
+    background:rgba(215,183,117,1);
+    position: absolute;
+    top:13px;
+}
+.coupon_center_center{
+    width:100%;
+    height:26px;
+}
+.box_sizing{
+    box-sizing: border-box;
+}
+.coupon_detail_title{
+    font-size:18px;
+font-family:PingFangSC-Semibold;
+font-weight:600;
+color:rgba(191,140,35,1);
+line-height:25px;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+.coupon_detail_box{
+    box-shadow:1px 1px 3px 0px rgba(0,0,0,0.3);
+}
+.coupon_detail_money{
+    height:28px;
+    font-size:20px;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:rgba(255,128,0,1);
+    line-height:28px;
+    margin-bottom: 10px;
+}
+.coupon_detail_date{
+    font-size:16px;
+font-family:PingFangSC-Semibold;
+font-weight:600;
+color:rgba(255,255,255,1);
+margin-top: 9px;
+}
+.coupon_detail_btn{
+    height:50px;
+    background:#fff;
+    font-size:18px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(191,140,35,1);
+    text-align: center;
+    line-height: 50px;
+}

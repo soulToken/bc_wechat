@@ -1,0 +1,95 @@
+import React from 'react';
+import ReactDOM from 'react-dom'
+import './index.css'
+import {Toast} from 'antd-mobile'
+import {getCaseDetail} from '../../../api/api'
+
+class App extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state={
+            getClinicActivityDetail:getCaseDetail,
+            id:this.props.match.params.id,
+            result:null,
+        }
+        document.title="详情"
+    }
+    componentDidMount(){
+        this.getDetail()
+    }
+    getDetail=()=>{
+        var self=this;
+        var param="id="+this.state.id
+        this.state.getClinicActivityDetail(param).then(function(res){
+            if (res.ok) {
+              res.json().then((obj)=> {
+                  if(obj.resultCode==="1000"){ 
+                          self.setState({
+                              result:obj.result&&obj.result.caseDetail?obj.result.caseDetail:'',
+                              activityPicture:obj.result&&obj.result.casePicture?obj.result.casePicture:'',
+                              show:true
+                          })
+                  }else{
+                      Toast.fail(obj.resultMsg, 1);
+                  }
+                 
+      
+              })
+      
+          }
+          }).catch(function(){
+            Toast.fail("网络错误", 1);
+          })
+    }
+    render(){
+        return (
+            <div 
+            // style={
+            //     // {
+            //     //   paddingLeft:'15px',
+            //     //   paddingRight:'15px'
+            //     // }
+            //   }
+              
+              >
+
+               <img style={{  width: '100%'}} src={this.state.activityPicture}  alt="" />
+                {this.state.result ? (
+                    <div>
+                        <p style={{textAlign:'center'}}>----------详情-------------</p>
+                            <div    dangerouslySetInnerHTML={{
+                        __html: this.state.result
+                      }}
+                       style={
+                {
+                  paddingLeft:'15px',
+                  paddingRight:'15px'
+                }
+              }
+                      
+                      >
+                      </div>
+                    </div>
+                       
+              ) : ( 
+                 <div style={{textAlign:'center',marginTop:'100px'}}>
+                 
+                            {this.state.show ? (
+                                <div style={{textAlign:'center',marginTop:'100px'}}>
+                                暂无相关数据
+                              </div>
+                                
+                          ) : ( 
+                            <div style={{textAlign:'center',marginTop:'100px'}}>
+                          
+                               </div>
+                            
+                          )}
+                 
+                 </div>
+              )}
+              </div>
+        )
+    }
+}
+export default App

@@ -1,0 +1,8 @@
+只需要换下面的 部分
+/appointment   预约记录界面
+/my  个人中心
+/onlineBook  预约界面
+/clinicIntroduce  诊所介绍
+/serviceItems   服务项目
+/doctorTeam  医生团队
+/activity   活动 界面

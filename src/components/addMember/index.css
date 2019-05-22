@@ -1,0 +1,31 @@
+.cellBox{
+    height: 44px;
+    border-bottom: 1px solid #666666;
+}
+
+.fixedDiv{
+    font-size:17px;
+    font-family:PingFang-SC-Medium;
+    color:rgba(0,0,0,1);
+    line-height:16px;
+    /* padding-left: 16px; */
+
+}
+
+.memberList_content{
+    padding:10px 15px 12px 0;
+}
+
+.inputClass{
+
+    /* text-align: right; */
+    padding-right: 10px;
+    /* width: 100px; */
+    border:0;
+   
+}
+
+.input_right input::-webkit-input-placeholder {
+
+    text-align: right;
+}

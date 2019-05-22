@@ -1,0 +1,422 @@
+
+/* 分类   门诊类型字段 02 代表中医类型    03 代表祛痘类型 */
+.commonBg{
+    background:#0381FF;
+}
+.ChineseMedicine .line_left{
+    background:rgba(250,160,55,1);
+}
+.ChineseMedicine .service_name{
+    background:rgba(250,160,55,1);
+}
+.ChineseMedicine .doctor_name_box{
+    color:#faa037;
+}
+
+.ChineseMedicine .doctor_classify_box{
+    background:rgba(250,160,55,1);
+}
+.ChineseMedicine .memberList_type{
+    background: #F9A137
+}
+.ChineseMedicine .add_member_box{
+    color: #F9A137;
+
+}
+/* .ChineseMedicine .my_head_box{
+    background:url(../../static/images/my/top_background1.png) no-repeat center;
+} */
+.ChineseMedicine .my_type_title{
+    color:#F9A137;
+}
+.ChineseMedicine .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #F9A137;
+    background: #F9A137;
+}
+.ChineseMedicine .order_detail_top_left{
+    color:#F9A137; 
+}
+.ChineseMedicine .date_1{
+    background:rgba(249,161,55,1);
+}
+.ChineseMedicine .time_1{
+    background:#F9A137;
+}
+.ChineseMedicine .am-button-primary{
+    background:#F9A137;
+}
+.ChineseMedicine .am-button-primary.am-button-active{
+    background:#F9A137;
+}
+.ChineseMedicine .am-tabs-default-bar-tab-active{
+    color:#F9A137;
+}
+.ChineseMedicine .am-tabs-default-bar-underline{
+    border: 1px #F9A137 solid;
+}
+.ChineseMedicine .commonBg{
+    background:#F9A137;
+}
+
+/* 妇科类型  FF99F7 gynaecology */
+
+
+.gynaecology .line_left{
+    background:#FF99F7;
+}
+.gynaecology .service_name{
+    background:#FF99F7;
+}
+.gynaecology .doctor_name_box{
+    color:#FF99F7;
+}
+
+.gynaecology .doctor_classify_box{
+    background:#FF99F7;
+}
+.gynaecology .memberList_type{
+    background: #FF99F7
+}
+.gynaecology .add_member_box{
+    color: #FF99F7;
+
+}
+/* .ChineseMedicine .my_head_box{
+    background:url(../../static/images/my/top_background1.png) no-repeat center;
+} */
+.gynaecology .my_type_title{
+    color:#FF99F7;
+}
+.gynaecology .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #FF99F7;
+    background: #FF99F7;
+}
+.gynaecology .order_detail_top_left{
+    color:#FF99F7; 
+}
+.gynaecology .date_1{
+    background:#FF99F7;
+}
+.gynaecology .time_1{
+    background:#FF99F7;
+}
+.gynaecology .am-button-primary{
+    background:#FF99F7;
+}
+.gynaecology .am-button-primary.am-button-active{
+    background:#FF99F7;
+}
+.gynaecology .am-tabs-default-bar-tab-active{
+    color:#FF99F7;
+}
+.gynaecology .am-tabs-default-bar-underline{
+    border: 1px #FF99F7 solid;
+}
+.gynaecology .top_zindex{
+    background: #fff5fe;
+}
+.gynaecology{
+    font-size:13px;
+}
+.gynaecology .commonBg{
+    background: #FF99F7;
+}
+
+/* 中医第二套模板类型  ChineseMedicineType2  #00708e */
+
+.ChineseMedicineType2 .line_left{
+    background:#00708e;
+}
+.ChineseMedicineType2 .service_name{
+    background:#00708e;
+}
+.ChineseMedicineType2 .doctor_name_box{
+    color:#00708e;
+}
+
+.ChineseMedicineType2 .doctor_classify_box{
+    background:#00708e;
+}
+.ChineseMedicineType2 .memberList_type{
+    background: #00708e
+}
+.ChineseMedicineType2 .add_member_box{
+    color: #00708e;
+
+}
+/* .ChineseMedicine .my_head_box{
+    background:url(../../static/images/my/top_background1.png) no-repeat center;
+} */
+.ChineseMedicineType2 .my_type_title{
+    color:#00708e;
+}
+.ChineseMedicineType2 .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #00708e;
+    background: #00708e;
+}
+.ChineseMedicineType2 .order_detail_top_left{
+    color:#00708e; 
+}
+.ChineseMedicineType2 .date_1{
+    background:#00708e;
+}
+.ChineseMedicineType2 .time_1{
+    background:#00708e;
+}
+.ChineseMedicineType2 .am-button-primary{
+    background:#00708e;
+}
+.ChineseMedicineType2 .am-button-primary.am-button-active{
+    background:#00708e;
+}
+.ChineseMedicineType2 .am-tabs-default-bar-tab-active{
+    color:#00708e;
+}
+.ChineseMedicineType2 .am-tabs-default-bar-underline{
+    border: 1px #00708e solid;
+}
+.ChineseMedicineType2 .top_zindex{
+    background: #f7f7f7;
+}
+.ChineseMedicineType2{
+    font-size:13px;
+}
+.ChineseMedicineType2 .commonBg{
+    background:#00708e;
+}
+.ChineseMedicineType2 .signIn_box{
+    border:1px solid #00748a;
+    border-radius:20px;
+    padding:3px 10px;
+    color:#00748a;
+}
+.ChineseMedicineType2 .am-card{
+    min-height: 75px;
+}
+.ChineseMedicineType2 .am-card.am-card-full::before{
+    height:0!important;
+}
+.ChineseMedicineType2 .am-card.am-card-full::after{
+    height:0!important;
+}
+.am-card-body::before{
+    height:0!important;
+}
+.am-card-body::after{
+    height:0!important;
+}
+/* 祛痘第一个版本  5c9908 acne */
+.acne .my_type_title{
+    color:#5c9908;
+}
+.acne .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #5c9908;
+    background: #5c9908;
+}
+.acne .order_detail_top_left{
+    color:#5c9908; 
+}
+.acne .date_1{
+    background:#5c9908;
+}
+.acne .time_1{
+    background:#5c9908;
+}
+.acne .am-button-primary{
+    background:#5c9908;
+}
+
+.acne .am-button-primary.am-button-active{
+    background:#5c9908;
+}
+.acne .am-tabs-default-bar-tab-active{
+    color:#5c9908;
+}
+.acne .am-tabs-default-bar-underline{
+    border: 1px #5c9908 solid;
+}
+.acne .top_zindex{
+    background: #f7f7f7;
+}
+.acne{
+    font-size:13px;
+}
+.acne .commonBg{
+    background:#5c9908;
+}
+.acne .commonCol{
+    color:#5c9908;
+}
+.acne .commonBor{
+    border:1px solid #5c9908;
+}
+.acne .signIn_box{
+    border:1px solid #5c9908;
+    border-radius:20px;
+    padding:3px 10px;
+    color:#5c9908;
+}
+.acne_address_box{
+    border-radius:8px;
+    text-align:center;
+    width:95%;
+    color:#fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:5px;
+}
+/* 牙科第二个版本 toothType2   a72eef */
+.toothType2 .my_type_title{
+    color:#a72eef;
+}
+.toothType2 .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #a72eef;
+    background: #a72eef;
+}
+.toothType2 .order_detail_top_left{
+    color:#a72eef; 
+}
+.toothType2 .date_1{
+    background:#a72eef;
+}
+.toothType2 .time_1{
+    background:#a72eef;
+}
+.toothType2 .am-button-primary{
+    background:#a72eef;
+}
+
+.toothType2 .am-button-primary.am-button-active{
+    background:#a72eef;
+}
+.toothType2 .am-tabs-default-bar-tab-active{
+    color:#a72eef;
+}
+.toothType2 .am-tabs-default-bar-underline{
+    border: 1px #a72eef solid;
+}
+.toothType2 .top_zindex{
+    background: #fdf8ff;
+}
+.toothType2{
+    font-size:13px;
+}
+.toothType2 .commonBg{
+    background:#a72eef;
+}
+.toothType2 .commonCol{
+    color:#a72eef;
+}
+.toothType2 .commonBor{
+    border:1px solid #a72eef;
+}
+.toothType2 .signIn_box{
+    border:1px solid #a72eef;
+    border-radius:20px;
+    padding:3px 10px;
+    color:#a72eef;
+}
+/* 牙科第三个版本 toothType3 #99d5ff */
+.toothType3 .my_type_title{
+    color:#99d5ff;
+}
+.toothType3 .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #99d5ff;
+    background: #99d5ff;
+}
+.toothType3 .order_detail_top_left{
+    color:#99d5ff; 
+}
+.toothType3 .date_1{
+    background:#99d5ff;
+}
+.toothType3 .time_1{
+    background:#99d5ff;
+}
+.toothType3 .am-button-primary{
+    background:#99d5ff;
+}
+
+.toothType3 .am-button-primary.am-button-active{
+    background:#99d5ff;
+}
+.toothType3 .am-tabs-default-bar-tab-active{
+    color:#99d5ff;
+}
+.toothType3 .am-tabs-default-bar-underline{
+    border: 1px #99d5ff solid;
+}
+.toothType3 .top_zindex{
+    background: rgba(255,253,249,1);
+}
+.toothType3{
+    font-size:13px;
+}
+.toothType3 .commonBg{
+    background:#99d5ff;
+}
+.toothType3 .commonCol{
+    color:#99d5ff;
+}
+.toothType3 .commonBor{
+    border:1px solid #99d5ff;
+}
+.toothType3 .signIn_box{
+    border:1px solid #99d5ff;
+    border-radius:20px;
+    padding:3px 10px;
+    color:#99d5ff;
+}
+
+
+/* 盲人按摩类型   a67b58  blind */
+.blind .my_type_title{
+    color:#a67b58;
+}
+.blind .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    border-color: #a67b58;
+    background: #a67b58;
+}
+.blind .order_detail_top_left{
+    color:#a67b58; 
+}
+.blind .date_1{
+    background:#a67b58;
+}
+.blind .time_1{
+    background:#a67b58;
+}
+.blind .am-button-primary{
+    background:#a67b58;
+}
+
+.blind .am-button-primary.am-button-active{
+    background:#a67b58;
+}
+.blind .am-tabs-default-bar-tab-active{
+    color:#a67b58;
+}
+.blind .am-tabs-default-bar-underline{
+    border: 1px #a67b58 solid;
+}
+.blind .top_zindex{
+    background: #fff;
+}
+.blind{
+    font-size:13px;
+}
+.blind .commonBg{
+    background:#a67b58;
+}
+.blind .commonCol{
+    color:#a67b58;
+}
+.blind .commonBor{
+    border:1px solid #a67b58;
+}
+.blind .signIn_box{
+    border:1px solid #a67b58;
+    border-radius:20px;
+    padding:3px 10px;
+    color:#a67b58;
+}

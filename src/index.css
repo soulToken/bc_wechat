@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-overflow-scrolling:touch; 
+}
+.flex_row{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: row;
+}
+.flex_column{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: column
+}
+.al_center{
+    align-items: center;
+}
+.al_stretch{
+    align-items: stretch;
+}
+.al_content_stretch{
+    align-content: stretch
+}
+.flex_1{
+    flex:1;
+}
+.flex_wrap{
+    display: flex;
+    flex-wrap:wrap;
+    /* align-content:space-around; */
+}
+.just_content_sa{
+    justify-content: space-around;
+}
+.just_content_sb{
+    justify-content: space-between;
+}
+.just_content_center{
+    justify-content: center
+}
+.just_content_end{
+    justify-content:flex-end;
+}
+.al_content_sb{
+    align-content: space-between;
+}
+.width_0{
+    width:0;
+}
+.wid_50{
+    width:50%;
+}
+
+.text_ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ChineseMedicine .am-button-primary{
+    background:#F9A137;
+}
+.ChineseMedicine .am-button-primary.am-button-active{
+    background:#F9A137;
+}
+.ChineseMedicine .am-tabs-default-bar-tab-active{
+    color:#F9A137;
+}
+.ChineseMedicine .am-tabs-default-bar-underline{
+    border: 1px #F9A137 solid;
+}
+.line{
+    width:100%;
+    height:1px;
+    background: #d5d5d5;
+}
+.ellipsisTwo{
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.my_type_icon{
+    width:60%;
+}
+/* 个人中心间隔问题 */
+.am-list-header{
+    padding:5px 0;
+}
+.pos_rel{
+    position: relative;
+}
+.pos_abs{
+    position:absolute;
+}
+.width_33{
+    width:33.333333%;
+}
+.width_50{
+    width:50%;
+}
+.width_100{
+    width:100%;
+}
+.h_100{
+    height:100%;
+}
+.ChineseMedicineType2 .am-card-header-extra{
+    flex:none;
+    margin-left:10px;
+}
+.over_two_ellipsis{
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.fl{
+    float:left;
+}
+.bgfff{
+    background:#fff;
+}
+.colorfff{
+    color:#fff;
+}
+.mb_4{
+    margin-bottom:4px;
+}
+.pt_20{
+    padding-top: 20px;
+}
+.pb_20{
+    padding-bottom: 20px;
+}
+.block{
+    display: block;
+}
+.text_center{
+    text-align: center;
+}

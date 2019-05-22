@@ -1,0 +1,29 @@
+.head_title{
+    background:rgba(255,255,255,1);
+box-shadow:0px 2px 6px 0px rgba(92,153,8,0.35);
+position:relative;
+width:100%;
+}
+.head_title_center{
+    position:relative;
+    width:100%;
+}
+.head_title_title{
+    position:absolute;
+    font-size:18px
+}
+.acne .type444 .am-button{
+    height:auto;
+    line-height:normal;
+    font-size:13px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.acne_address_container{
+    position: relative;;
+    right:0;
+    top:5px;
+    padding-right:5px;
+    box-sizing: border-box;
+   
+}

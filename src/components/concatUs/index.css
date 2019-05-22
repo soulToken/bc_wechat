@@ -1,0 +1,20 @@
+.concatUs_box .input_box{
+    background: transparent;
+    color:#FFF2C0;
+    border: none;
+    outline: none;
+    text-indent: 6px;
+}
+.concatUs_box .input_box::placeholder{
+    color:#FFF2C0;
+}
+.concatUs_box .input_box::-moz-placeholder{
+    color:#FFF2C0;
+}
+.concatUs_box .submitBtn{
+    width:85%;
+    height:50px;
+    z-index:2;
+    position: absolute;
+    left:7.5%;
+}

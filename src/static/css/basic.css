@@ -1,0 +1,18 @@
+/* 公共样式 */
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+flex_row{
+    display: flex;
+    flex-direction: row;
+}
+flex_column{
+    display: flex;
+    flex-direction: column
+}

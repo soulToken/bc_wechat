@@ -1,0 +1,60 @@
+/* 顶部样式信息 */
+.user-header{
+    /* width:122rpx;
+    height:122rpx; */
+    text-align: center;
+    background: #F7F7F7;
+    margin-top:35px;
+    border-radius:50%;
+    width:114px;
+  }
+  .user-header img{
+      width:100%;
+  }
+ .box_shadow{
+     background-size:cover!important;
+ }
+  .honor_box{
+      border-top:1px solid #dfdfdf;
+      border-bottom:1px solid #dfdfdf;
+  }
+  .honor_des{
+      padding-left:15px;
+  }
+  .honor_content{
+      border-bottom:1px solid #dfdfdf;
+      padding-top:17px;
+      padding-bottom:17px;
+  }
+  .honor_content:last-child {
+      border:none;
+  }
+  .doctor_detail_classify{
+    font-size:11px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(254,254,254,1);
+    background:rgba(255,96,0,1);
+border-radius:7px;
+padding:2px 8px;
+    
+  }
+  .doctor_detail_left_icon{
+      width:16px;
+      height:15px;
+      margin-right:5px;
+  }
+  .doctor_detail_left_text{
+    font-size:16px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+  }
+  .doctor_detail_introduce{
+    font-size:12px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height:22px;
+    margin-top:10px;
+    color:rgba(102,102,102,1);
+  }

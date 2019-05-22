@@ -1,0 +1,19 @@
+.blind_common_top{
+    width:130px;
+    height:60px;
+    line-height:60px;
+    text-align: center;
+    font-size:18px;
+    color:#fff;
+}
+.blind_circle_box{
+    margin-top: 15px;
+    width:106px;
+    height:44px;
+    margin-bottom: 15px
+}
+.blind_server_box{
+    width:100%;
+    height:165px;
+    margin-bottom:35px;
+}

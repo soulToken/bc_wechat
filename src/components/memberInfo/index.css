@@ -1,0 +1,3 @@
+html:not([data-scale]) .am-button-primary::before{
+    border:0;
+}

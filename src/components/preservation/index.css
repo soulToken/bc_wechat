@@ -1,0 +1,54 @@
+/* .my_head_box{
+    height:148px;
+    width:100%;
+    background:url(../../static/images/doctor_team_background@3x.png) no-repeat center;
+    position: relative;
+}
+.head_url_center{
+    width:138px;
+    width:138px;
+    position: absolute;
+    top:29px;
+    left:50%;
+    margin-left:-69px;
+    border-radius:50%;
+}
+.my_head_box .am-image-picker{
+    height:100%;
+    
+}
+.my_head_box .am-image-picker-list{
+    padding:0;
+    height:100%;
+}
+.my_head_box .am-image-picker-list .am-flexbox{
+    height:100%;
+}
+.my_head_box .am-image-picker-list .am-flexbox .am-flexbox-item{
+    width:138px;
+    width:138px;
+    position: absolute;
+    top:29px;
+    left:50%;
+    margin-left:-69px;
+    border-radius:50%;
+}
+.my_head_box .am-image-picker-list .am-image-picker-upload-btn{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-remove{
+    display: none;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-content{
+    border-radius:50%;
+}
+.my_head_box .am-image-picker-list .am-image-picker-upload-btn input{
+    width:138px;
+}
+.my_head_box .am-image-picker-list .am-image-picker-item .am-image-picker-item-content{
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border:1px solid #fff;
+} */
